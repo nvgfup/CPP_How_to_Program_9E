@@ -2,8 +2,8 @@
 * @Author: Poyen Chen
 * @Date:   2018-10-14 13:51:52
 * @mail: robertiqgood@gmail.com
-* @Last Modified by:   Poyen Chen
-* @Last Modified time: 2018-10-18 02:27:10
+* @Last Modified by:   Hans Chen
+* @Last Modified time: 2018-10-28 15:01:57
 *****************************************************************************/
 #include <iostream>
 #include <string>
@@ -40,7 +40,4 @@ int main()
 	cout << "\nPlease enter the course name:" << endl;
 	getline(cin, nameOfCourse);
 	myGradeBook.setCourseName(nameOfCourse);
-
-	cout << endl;
-	myGradeBook.displayMessage();
 }

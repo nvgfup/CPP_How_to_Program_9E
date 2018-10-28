@@ -2,8 +2,8 @@
 * @Author: Poyen Chen
 * @Date:   2018-10-15 01:14:52
 * @mail: robertiqgood@gmail.com
-* @Last Modified by:   Poyen Chen
-* @Last Modified time: 2018-10-18 02:27:09
+* @Last Modified by:   Hans Chen
+* @Last Modified time: 2018-10-28 15:02:05
 *****************************************************************************/
 #include <iostream>
 #include <string>
@@ -46,6 +46,4 @@ int main()
 	cout << "gradeBook1 created for course: " << gradeBook1.getCourseName()
 		<< "\ngradeBook2 created for course: " << gradeBook2.getCourseName()
 		<< endl;
-	getchar();
-	return 0;
 }

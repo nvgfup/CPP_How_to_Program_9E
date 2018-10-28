@@ -2,8 +2,8 @@
 * @Author: Poyen Chen
 * @Date:   2018-10-14 12:08:01
 * @mail: robertiqgood@gmail.com
-* @Last Modified by:   Poyen Chen
-* @Last Modified time: 2018-10-18 02:27:11
+* @Last Modified by:   Hans Chen
+* @Last Modified time: 2018-10-28 15:01:45
 *****************************************************************************/
 #include <iostream>
 #include <string>
@@ -28,6 +28,4 @@ int main()
 	cout << endl;
 
 	myGradeBook.displayMessage(nameOfCourse);
-	getchar();
-	return 0;
 }

@@ -2,8 +2,8 @@
 * @Author: Poyen Chen
 * @Date:   2018-10-24 01:13:17
 * @mail: robertiqgood@gmail.com
-* @Last Modified by:   Poyen Chen
-* @Last Modified time: 2018-10-24 1:37:32
+* @Last Modified by:   Hans Chen
+* @Last Modified time: 2018-10-28 14:59:41
 *****************************************************************************/
 #include <iostream>
 #include "Invoice.h"
@@ -26,7 +26,4 @@ int main()
 		<< "\nPricePerItem: " << myInvoiceTwo.getPricePerItem()
 		<< "\nPrice: " << myInvoiceTwo.getInvoiceAmount()
 		<< endl;
-
-	getchar();
-	return 0;
 }

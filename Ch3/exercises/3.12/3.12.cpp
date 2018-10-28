@@ -2,8 +2,8 @@
 * @Author: Poyen Chen
 * @Date:   2018-10-22 12:37:06
 * @mail: robertiqgood@gmail.com
-* @Last Modified by:   Poyen Chen
-* @Last Modified time: 2018-10-22 12:37:06
+* @Last Modified by:   Hans Chen
+* @Last Modified time: 2018-10-28 14:59:29
 *****************************************************************************/
 #include <iostream>
 #include "Account.h"
@@ -28,7 +28,4 @@ int main()
 	accountTwo.debit(90);
 	cout << "Final accountTwo balance is: " << accountTwo.getBalance()
 		<< endl;
-
-	getchar();
-	return 0;
 }

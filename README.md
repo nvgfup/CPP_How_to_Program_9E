@@ -1,2 +1,2 @@
-# C-How-to-Program-9-E
+# CPP-How-to-Program-9E
 My examples and exercises in the book

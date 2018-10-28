@@ -3,7 +3,7 @@
 * @Date:   2018-10-06 00:32:45
 * @mail: robertiqgood@gmail.com
 * @Last Modified by:   Hans Chen
-* @Last Modified time: 2018-10-18 02:26:33
+* @Last Modified time: 2018-10-28 15:01:29
 *****************************************************************************/
 #include <iostream>
 using namespace std;
@@ -20,6 +20,4 @@ int main(int argc, char const *argv[])
 {
 	GradeBook myGradeBook;
 	myGradeBook.displayMessage();
-	getchar();
-	return 0;
 }
