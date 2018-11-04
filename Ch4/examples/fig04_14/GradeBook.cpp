@@ -1,11 +1,12 @@
 /*****************************************************************
 * @Author: Poyen Chen
-* @Date:   2018-11-04 18:07:39
+* @Date:   2018-11-04 22:59:58
 * @mail:   robertiqgood@gmail.com
 * @Last Modified by:   Poyen Chen
-* @Last Modified time: 2018-11-04 23:16:52
+* @Last Modified time: 2018-11-05 00:20:23
 *****************************************************************/
 #include <iostream>
+#include <iomanip>
 #include "GradeBook.h"
 using namespace std;
 
@@ -40,21 +41,30 @@ void GradeBook::displayMessage() const
 void GradeBook::determineClassAverage() const
 {
 	int total = 0;
-	unsigned int gradeCounter = 1;
+	unsigned int gradeCounter = 0;
 
-	while (gradeCounter <= 10)
+	cout << "Enter grade or -1 to quit: ";
+	int grade = 0;
+	cin >> grade;
+
+	while (grade != -1)
 	{
-		cout << "Enter grade: ";
-		int grade = 0;
-		cin >> grade;
 		total = total + grade;
 		gradeCounter = gradeCounter + 1;
+
+		cout << "Enter grade or -1 to quit: ";
+		cin >> grade;
 	}
 
-	//termination phase
-	int average = total / 10;
+	if (gradeCounter != 0)
+	{
+		double average = static_cast< double >( total ) / gradeCounter;
 
-	//display total and average of grades
-	cout << "\nTotal of all 10 grades is " << total << endl;
-	cout << "Class average is " << average << endl;
+		cout << "\nTotal of all" << gradeCounter << " grades entered is "
+			<< total << endl;
+		cout << setprecision(2) << fixed;
+		cout << "Class average is " << average << endl;
+	}
+	else
+		cout << "No grades were entered" << endl;
 }
