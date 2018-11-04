@@ -3,7 +3,7 @@
 * @Date:   2018-11-04 18:07:39
 * @mail:   robertiqgood@gmail.com
 * @Last Modified by:   Poyen Chen
-* @Last Modified time: 2018-11-04 18:27:02
+* @Last Modified time: 2018-11-04 18:58:28
 *****************************************************************/
 #include <iostream>
 #include "GradeBook.h"
@@ -16,7 +16,14 @@ GradeBook::GradeBook(string name)
 
 void GradeBook::setCourseName(string name)
 {
-	CourseName = name;
+	if (name.size() <= 25)
+		CourseName = name;
+	else
+	{
+		courseName = name.substr(0, 25);
+		cerr << "Name \"" << name << "\" exceeds maximum length (25) .\n"
+			<< "Limiting courseName to first 25 characters.\n" << endl;
+	}
 }
 
 string GradeBook::getCourseName() const
