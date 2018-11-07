@@ -3,7 +3,7 @@
 * @Date:   2018-11-07 00:02:46
 * @mail:   robertiqgood@gmail.com
 * @Last Modified by:   Poyen Chen
-* @Last Modified time: 2018-11-08 01:03:15
+* @Last Modified time: 2018-11-08 01:47:02
 *****************************************************************/
 #include <iostream>
 #include "SalesCommissionCalculator.h"
@@ -30,8 +30,7 @@ double SalesCommissionCalculator::getSalary(){return salary;}
 
 void SalesCommissionCalculator::run()
 {
-	std::cout << "Enter sales in dollars (-1 to end): ";
-	std::cin >> grossSales;
+	setGrossSales();
 
 	while (getGrossSales() != -1)
 	{
