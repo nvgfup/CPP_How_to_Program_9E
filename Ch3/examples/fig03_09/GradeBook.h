@@ -5,19 +5,20 @@
 * @Last Modified by:   Poyen Chen
 * @Last Modified time: 2018-10-18 02:27:09
 *****************************************************************************/
-#include <iostream>
+// Fig. 3.9: Gradebook.h
+// GradeBook class definition in a separate file from main.
 #include <string>
 
 class GradeBook
 {
 public:
-	explicit GradeBook(std::string name)
-		: courseName(name)
+	explicit GradeBook( std::string name )
+		: courseName( name )
 	{
 		// empty
 	}
 
-	void setCourseName(std::string name)
+	void setCourseName( std::string name )
 	{
 		courseName = name;
 	}

@@ -3,9 +3,11 @@
 * @Date:   2018-10-28 15:16:03
 * @mail:   robertiqgood@gmail.com
 * @Last Modified by:   Poyen Chen
-* @Last Modified time: 2019-06-26 16:56:54
+* @Last Modified time: 2019-06-27 17:37:47
 *****************************************************************/
-#include <iostream>
+// Fig. 3.1: fig03_01.cpp
+// Define class GradeBook with a member function displayMessage,
+// create a GradeBook object, and call its displayMessage function.#include <iostream>
 using namespace std;
 
 class GradeBook
@@ -16,7 +18,7 @@ public:
 		cout << "Welcome to the Grade Book!" << endl;
 	}
 };
-int main(int argc, char const *argv[])
+int main()
 {
 	GradeBook myGradeBook;
 	myGradeBook.displayMessage();
