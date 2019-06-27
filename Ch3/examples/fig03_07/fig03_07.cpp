@@ -3,12 +3,13 @@
 * @Date:   2018-10-28 15:16:03
 * @mail:   robertiqgood@gmail.com
 * @Last Modified by:   Poyen Chen
-* @Last Modified time: 2019-06-27 17:41:41
+* @Last Modified time: 2019-06-27 18:07:52
 *****************************************************************/
 // Fig. 3.7: fig03_07.cpp
 // Instantiating multiple objects of the GradeBook class and using
 // the GradeBook constructor to specify the course name
-// when each GradeBook object is created.#include <iostream>
+// when each GradeBook object is created.
+#include <iostream>
 #include <string>
 using namespace std;
 

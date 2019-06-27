@@ -3,10 +3,11 @@
 * @Date:   2018-10-15 01:14:52
 * @mail: robertiqgood@gmail.com
 * @Last Modified by:   Poyen Chen
-* @Last Modified time: 2019-06-27 17:59:09
+* @Last Modified time: 2019-06-27 18:10:50
 *****************************************************************************/
 // Fig. 3.17: fig03_17.cpp
 // Create and manipulate a GradeBook object; illustrate validation.
+#include <iostream>
 #include "GradeBook.h"
 using namespace std;
 

@@ -3,11 +3,12 @@
 * @Date:   2018-10-28 15:16:03
 * @mail:   robertiqgood@gmail.com
 * @Last Modified by:   Poyen Chen
-* @Last Modified time: 2019-06-27 17:38:17
+* @Last Modified time: 2019-06-27 18:07:35
 *****************************************************************/
 // Fig. 3.3: fig03_03.cpp
 // Define class GradeBook with a member function that takes a parameter,
-// create a GradeBook object and call its displayMessage function.#include <iostream>
+// create a GradeBook object and call its displayMessage function.
+#include <iostream>
 #include <string>
 using namespace std;
 

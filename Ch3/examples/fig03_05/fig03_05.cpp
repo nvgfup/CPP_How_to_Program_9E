@@ -3,12 +3,13 @@
 * @Date:   2018-10-28 15:16:03
 * @mail:   robertiqgood@gmail.com
 * @Last Modified by:   Poyen Chen
-* @Last Modified time: 2019-06-27 17:39:24
+* @Last Modified time: 2019-06-27 18:07:43
 *****************************************************************/
 // Fig. 3.5: fig03_05.cpp
 // Define class GradeBook that contains a courseName data member
 // and member functions to set and get its value;
-// Create and manipulate a GradeBook object with these functions.#include <iostream>
+// Create and manipulate a GradeBook object with these functions.
+#include <iostream>
 #include <string>
 using namespace std;
 

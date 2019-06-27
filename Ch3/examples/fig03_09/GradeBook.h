@@ -7,6 +7,7 @@
 *****************************************************************************/
 // Fig. 3.9: Gradebook.h
 // GradeBook class definition in a separate file from main.
+#include <iostream>
 #include <string>
 
 class GradeBook

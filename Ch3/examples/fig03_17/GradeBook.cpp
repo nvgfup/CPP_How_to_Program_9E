@@ -3,11 +3,12 @@
 * @Date:   2018-10-15 01:14:52
 * @mail: robertiqgood@gmail.com
 * @Last Modified by:   Poyen Chen
-* @Last Modified time: 2019-06-27 18:01:36
+* @Last Modified time: 2019-06-27 18:10:39
 *****************************************************************************/
 // Fig. 3.16: GradeBook.cpp
 // Implementations of the GradeBook member-function definitions.
 // The setCourseName function performs validation.
+#include <iostream>
 #include "GradeBook.h"
 using namespace std;
 
